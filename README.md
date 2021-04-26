@@ -5,7 +5,7 @@ rastreamento.
 
 O comando pode ser usado com essa sintaxe:
 ```bash
-python correios.py CODIGO_DE_RASTREAMENTO
+./correios.py CODIGO_DE_RASTREAMENTO
 ```
 
 Ele vai imprimir o caminho que o objeto fez até sua última localização, igual
