@@ -12,5 +12,7 @@ Ele vai imprimir o caminho que o objeto fez até sua última localização, igua
 aparece no site dos correios. O trabalho é feito usando essa
 [API][correiosAPI].
 
+Esse script requer o `python 3` e o `python-requests` para funcionar.
+
 
 [correiosAPI]:https://github.com/chipytux/correiosApi 
