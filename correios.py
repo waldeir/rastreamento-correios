@@ -14,6 +14,7 @@ jason = response.json()
 
 events = jason['eventos']
 
+
 for i in events:
     print(i['local'])
     print(i['data'])
@@ -21,3 +22,6 @@ for i in events:
     print("Status: ", i['status'])
     print("Substatus: ", i['subStatus'])
     print(' ')
+
+if jason['servico']:
+    print('Serviço:',jason['servico'])
