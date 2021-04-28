@@ -20,7 +20,8 @@ for i in events:
     print(i['data'])
     print(i['hora'])
     print("Status: ", i['status'])
-    print("Substatus: ", i['subStatus'])
+    if i['subStatus'] != []:
+        print("Substatus: ", i['subStatus'])
     print(' ')
 
 if jason['servico']:
