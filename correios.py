@@ -10,6 +10,12 @@ headers= {}
 
 response = requests.request("GET", url, headers=headers, data = payload)
 
+if not response.ok:
+    print('Nâo foi possível completar a solicitação: ',response.reason)
+    print('Código de status: ',response.status_code)
+    exit()
+
+
 jason = response.json()
 
 events = jason['eventos']
