@@ -1,6 +1,6 @@
 # Rastreamento Correios
 
-Esse script simples serve para rastrear uma encomenda usando seu código de
+Este script simples serve para rastrear uma encomenda usando seu código de
 rastreamento.
 
 O comando pode ser usado com essa sintaxe:
