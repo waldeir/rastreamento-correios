@@ -1,14 +1,16 @@
 # Rastreamento Correios
 
-Este script simples serve para rastrear uma encomenda usando seu código de
-rastreamento.
+## Rastreamento de encomendas a um comando de alcance
+
+Este script simples serve para rastrear uma encomenda dos correios usando seu
+código de rastreamento, imprimindo o resultado no terminal.
 
 O comando pode ser usado com essa sintaxe:
 ```bash
-./correios.py CODIGO_DE_RASTREAMENTO
+./correios.py CÓDIGO_DE_RASTREAMENTO
 ```
 
-Ele vai imprimir o caminho que o objeto fez até sua última localização, igual
+Ele vai imprimir o caminho que o objeto fez até sua última localização atual, igual
 aparece no site dos correios. O trabalho é feito usando esta
 [API][correiosAPI].
 
