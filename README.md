@@ -5,7 +5,7 @@
 Este script simples serve para rastrear uma encomenda dos correios usando seu
 código de rastreamento, imprimindo o resultado no terminal.
 
-O comando pode ser usado com essa sintaxe:
+O comando pode ser usado com esta sintaxe:
 ```bash
 ./correios.py CÓDIGO_DE_RASTREAMENTO
 ```
