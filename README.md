@@ -7,7 +7,7 @@ código de rastreamento, imprimindo o resultado no terminal.
 
 O comando pode ser usado com esta sintaxe:
 ```bash
-./correios.py CÓDIGO_DE_RASTREAMENTO
+./correios CÓDIGO_DE_RASTREAMENTO
 ```
 
 Ele vai imprimir o caminho que o objeto fez até sua última localização atual, igual
