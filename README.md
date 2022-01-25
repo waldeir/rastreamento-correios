@@ -12,9 +12,13 @@ O comando pode ser usado com esta sintaxe:
 
 Ele vai imprimir o caminho que o objeto fez até sua última localização atual, igual
 aparece no site dos correios. O trabalho é feito usando esta
-[API][correiosAPI].
+[API][correiosAPI] criada por [link & track][linktrack].
 
-Esse script requer o `python 3` e o `python-requests` para funcionar.
+**OBS 1**: O script usa uma conta de teste para acessar a API e isso pode levar a falhas
+na requisição. Basta executar o comando de novo que o rastreio eventualmente
+será mostrado.
 
+**OBS 2**: Requer o `python 3` e o `python-requests` para funcionar.
 
 [correiosAPI]:https://github.com/chipytux/correiosApi 
+[linktrack]:https://linketrack.com
